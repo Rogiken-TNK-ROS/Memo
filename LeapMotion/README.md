@@ -9,7 +9,7 @@
 $ source preinstall.bash
 ```
 
-#### 1.2
+#### 1.2 SDKのインストール
 動作確認済バージョン：v2.3.1 （要ユーザ登録）  
 https://developer.leapmotion.com/sdk/v2  
 インストール方法はダウンロードしたSDKのREADMEに書かれている．  
