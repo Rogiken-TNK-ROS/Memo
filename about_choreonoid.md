@@ -10,6 +10,15 @@ Githubアカウントでアカウント作れるんで，よろしくお願い�
 http://choreonoid.org/ja/manuals/latest/index.html
 書いてないことも多いけど大体のことは書いてある．多分．
 
+#### 困ったらこれをしろ
+- catkin_wsのリセット&choreonoid再インスト
+というのも，プラグインの実体が自動生成されなかったり正しい場所に生成されなくなるケースが多々ある．
+詳しい原因は不明だがcmakeの動作が安定しないせいだと思われる．
+  - 今の所動作不良を起こしたプラグイン一覧
+  pythonプラグイン
+  AGXdynamicsプラグイン
+  RosBodyプラグイン
+
 ### 2. ChoreonoidとChoreonoid_ROS_Bridgeのソースコードのありか
 - Choreonoid : https://github.com/WRS_TNK/choreonoid
 - choreonoid_ros_bridge : https://github.com/WRS_TNK/choreonoid_ros_pkg
