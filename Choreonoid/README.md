@@ -78,21 +78,9 @@ $ catkin source
 $ roslaunch aizu_spider_tnk_description display.launch
 ```
 
-うまくいったら下記みたいに動かせるはず．
+うまくいったら下記みたいに動かせるはず．  
 ![t1-aizusupider_sa](.images/t1-aizusupider_sa.gif)
 
-
----
-
-# 困ったらここを見ろ！
-
-- choreonoid掲示板
-https://discourse.choreonoid.org/  
-Githubアカウントでアカウント作れるんで，よろしくお願いします．
-
-- choreonoid公式マニュアル
-http://choreonoid.org/ja/manuals/latest/index.html  
-書いてないことも多いけど大体のことは書いてある．多分．
 
 ---
 
@@ -101,6 +89,18 @@ http://choreonoid.org/ja/manuals/latest/index.html
 - 現在公式が使っているpythonプラグイン(```T1-**.py```など)は自由度がかなり低いので使わないほうがいいかも
 - 適当なプロジェクトファイルを開いてchoreonoid上で編集→別名で保存が割と安心
 - 中岡先生謹製のRosPluginも未実装が多く現状使えない
+
+---
+
+### 困ったらここを見ろ！
+
+- choreonoid掲示板
+https://discourse.choreonoid.org/  
+Githubアカウントでアカウント作れるんで，よろしくお願いします．
+
+- choreonoid公式マニュアル
+http://choreonoid.org/ja/manuals/latest/index.html  
+書いてないことも多いけど大体のことは書いてある．多分．
 
 ---
 
