@@ -1,4 +1,4 @@
-# ICP Matching を行うための方法
+# ICP Matpping を行うための方法
 ICP Matching を使うと，トンネルをとても綺麗にモデリングマッピングできるんだって！すごーい！！
 ---
 ## Installation
@@ -10,10 +10,10 @@ ICP Matching を使うと，トンネルをとても綺麗にモデリングマ�
 ```bash
 $ mkdir <catkin_ws>/src -p
 $ cd <catkin_ws>/src
-$ git clone -b git@github.com:WRS-TNK/libnabo.git
-$ git clone -b git@github.com:WRS-TNK/libpointmatcher.git
-$ git clone -b git@github.com:WRS-TNK/ethzasl_icp_mapping.git
-$ git clone -b git@github.com:WRS-TNK/pointcloud_tools.git
+$ git clone -b devel git@github.com:WRS-TNK/libnabo.git
+$ git clone -b devel git@github.com:WRS-TNK/libpointmatcher.git
+$ git clone -b devel git@github.com:WRS-TNK/ethzasl_icp_mapping.git
+$ git clone -b devel git@github.com:WRS-TNK/pointcloud_tools.git
 $ cd <catkin_ws>
 $ catkin build
 $ catkin source
