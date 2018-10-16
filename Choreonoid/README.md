@@ -30,7 +30,7 @@ sudo cp -i agx.lic  /opt/Algoryx/AgX-2.24.0.1                  // agx.licは配�
 
 # 環境変数の設定
 cd ~                                                               // ホームディレクトリに移動
-echo "source /opt/Algoryx/AgX-2.19.1.2/setup_env.bash" >> .bashrc
+echo "source /opt/Algoryx/AgX-2.24.0.1/setup_env.bash" >> .bashrc
 env | grep -i agx                                                  // AGX_DIRやAGX_BINARY_DIRなどが表示されること
 ```
 
