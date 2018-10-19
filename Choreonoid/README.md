@@ -32,6 +32,10 @@ sudo cp -i agx.lic  /opt/Algoryx/AgX-2.24.0.1                  // agx.licは配�
 cd ~                                                               // ホームディレクトリに移動
 echo "source /opt/Algoryx/AgX-2.24.0.1/setup_env.bash" >> .bashrc
 env | grep -i agx                                                  // AGX_DIRやAGX_BINARY_DIRなどが表示されること
+
+# OpenGL環境変数設定
+# これをやらないと、煙のシミュレーションとかされないよ
+$ echo "export CNOID_USE_GLSL=1" >> .bashrc
 ```
 
 **運営からもらったUSBがドングルになっており，挿してないとライセンスが有効にならない**
