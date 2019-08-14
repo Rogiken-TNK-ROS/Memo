@@ -1,11 +1,11 @@
 # simtrans
 simtrans は Choreonoid の Body ファイルを URDF に変換するのに使用している．  
-この他の変換も可能．詳しくは下記リンクを参照．
+この他の変換も可能．詳しくは下記リンクを参照．  
 http://fkanehiro.github.io/simtrans/html-ja/index.html
 
 ## Install
 2019.08.14現在公開されているsimutransには，Bodyファイルの再帰（Body内のSubBody）に対応していない．  
-そこで，再帰に対応したsimtransをインストール刷る必要がある．
+そこで，再帰に対応したsimtransをインストールする必要がある．  
 現在は未だUpstreamにPRを出していない．  
 ゆえに，自前ビルド（いうて簡単）が必要．
 
