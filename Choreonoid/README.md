@@ -17,19 +17,19 @@ http://choreonoid.org/ja/manuals/latest/wrs2018/teleoperation-ros.html
 ## 1. AGX Dynamicsのインストール
 AGX Dynamicsは配布USB内のREADMEに記載のリンクよりダウンンロードする．
 
-2019/08/14時点では，`agx-setup-2.26.0.1-x64-ubuntu_16.04-double.deb`がダウンロードできる．
+2019/08/14時点では，`agx-setup-2.26.1.0-x64-ubuntu_18.04-double.deb`がダウンロードできる．
 
 ```bash
 # インストール
 cd <path deb package is downloaded> 
-sudo dpkg -i agx-setup-2.26.0.1-x64-ubuntu_18.04-double.deb    // パッケージインストール
+sudo dpkg -i agx-setup-2.26.1.0-x64-ubuntu_18.04-double.deb    // パッケージインストール
 
 # AGX実行ライセンスファイルの配置
-sudo cp -i agx.lic  /opt/Algoryx/AgX-2.26.0.1                  // agx.licは配られたやつ
+sudo cp -i agx.lic  /opt/Algoryx/AgX-2.26.1.0                  // agx.licは配られたやつ
 
 # 環境変数の設定
 cd ~                                                               // ホームディレクトリに移動
-echo "source /opt/Algoryx/AgX-2.26.0.1/setup_env.bash" >> .bashrc
+echo "source /opt/Algoryx/AgX-2.26.1.0/setup_env.bash" >> .bashrc
 env | grep -i agx                                                  // AGX_DIRやAGX_BINARY_DIRなどが表示されること
 
 # OpenGL環境変数設定
