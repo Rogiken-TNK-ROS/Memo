@@ -50,6 +50,9 @@ $ cd <catkin_ws>/src
 $ git clone -b devel git@github.com:WRS-TNK/choreonoid.git
 $ git clone -b devel git@github.com:WRS-TNK/choreonoid_ros_pkg.git
 $ git clone -b devel git@github.com:WRS-TNK/wrs_tnk_robot.git
+$ wstool init
+$ wstool set choreonoid_ros_pkg https://github.com/WRS-TNK/choreonoid_ros_pkg.git --git -y
+$ wstool update choreonoid_ros_pkg
 $ source choreonoid/misc/script/install-requisites-ubuntu-16.04.sh
 $ cd <catkin_ws>
 $ rosdep install -i -y -r --from-paths src
@@ -57,33 +60,6 @@ $ catkin config --cmake-args -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTE
 $ catkin build choreonoid
 $ catkin build
 ```
-
----
-
-# 実行方法
-### 1. roscore 起動
-```bash
-$ roscore
-```
-
-### 2. choreonoid 起動（T1 AizuSpiderSA）
-```bash
-$ cd <catkin_ws>
-$ ./devel/bin/choreonoid src/choreonoid/sample/WRS2018/T1-AizuSpiderSA.cnoid
-```
-起動したら，左上のスタートボタンを押下．  
-うまく言ってれば，トピックにいろいろ情報が流れるよ．
-
-### 3. Descriptionの起動（後々要らなくなるかも）
-```bash
-$ cd <catkin_ws>
-$ catkin source
-$ roslaunch aizu_spider_tnk_description display.launch
-```
-
-うまくいったら下記みたいに動かせるはず．  
-![t1-aizusupider_sa](.images/t1-aizusupider_sa.gif)
-
 
 ---
 
