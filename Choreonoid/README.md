@@ -50,6 +50,9 @@ $ cd <catkin_ws>/src
 $ git clone -b devel git@github.com:WRS-TNK/choreonoid.git
 $ git clone -b devel git@github.com:WRS-TNK/choreonoid_ros_pkg.git
 $ git clone -b devel git@github.com:WRS-TNK/wrs_tnk_robot.git
+$ wstool init
+$ wstool set choreonoid_ros_pkg https://github.com/WRS-TNK/choreonoid_ros_pkg.git --git -y
+$ wstool update choreonoid_ros_pkg
 $ source choreonoid/misc/script/install-requisites-ubuntu-16.04.sh
 $ cd <catkin_ws>
 $ rosdep install -i -y -r --from-paths src
