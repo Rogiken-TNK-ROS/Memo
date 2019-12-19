@@ -47,9 +47,9 @@ ROSのインストールとかはわかりきっとるものとしてスター�
 ```bash
 $ mkdir -p <catkin_ws>/src
 $ cd <catkin_ws>/src
-$ git clone -b devel git@github.com:WRS-TNK/choreonoid.git
-$ git clone -b devel git@github.com:WRS-TNK/choreonoid_ros_pkg.git
-$ git clone -b devel git@github.com:WRS-TNK/wrs_tnk_robot.git
+$ git clone -b develop https://github.com/WRS-TNK/choreonoid.git
+$ git clone -b develop https://github.com/WRS-TNK/choreonoid_ros_pkg.git
+$ git clone -b develop https://github.com/WRS-TNK/wrs_tnk_robot.git
 $ wstool init
 $ wstool set choreonoid_ros_pkg https://github.com/WRS-TNK/choreonoid_ros_pkg.git --git -y
 $ wstool update choreonoid_ros_pkg
